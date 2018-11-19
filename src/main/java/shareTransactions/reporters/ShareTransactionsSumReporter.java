@@ -20,7 +20,7 @@ public class ShareTransactionsSumReporter {
     public static void main(String[] args) {
         List<ShareTransactions> shareTransactions = new LinkedList<>();
         shareTransactions.add(new ShareTransactions("Alex", "Bob",
-                TransactionType.Transfer, "01/04/2018", 1000));
+                TransactionType.Transfer, "03/04/2018", 2000));
         shareTransactions.add(new ShareTransactions("Alex", "Bob",
                 TransactionType.Transfer, "01/06/2018", 5000));
 
